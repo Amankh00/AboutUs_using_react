@@ -3,6 +3,7 @@ const ContactForm = ()=>
     return(
         <>
 
+
 <h1 className="head">Contact Us</h1>
         
          <div className="Contact">
@@ -16,7 +17,9 @@ const ContactForm = ()=>
           
 
         </div>
- 
+
+
+  <div className="details">
           <form action="">
 
          <div className="Cntc">
@@ -27,14 +30,14 @@ const ContactForm = ()=>
         <input type="email" required placeholder="Your Email" />
         <input type="text" required placeholder="Your Address"id="adress"/>
         <input type="text" required placeholder="Enter Your Message" id="mesg"/>
-        <input type="checkbox" id="chk" /> <p className="para">I agree that provider can contact me at the email address or phone number Above</p>
+        <input type="checkbox" id="chk" /> <p className="para"> I agree that provider can contact me at the email address or phone number Above</p>
         <input type="submit" />
          
         </div>
         </form>
 
         </div>
-
+        </div>
         
         </>
 
